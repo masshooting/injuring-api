@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>injuri.ng embed example</title>
+  <style>body { font-family: system-ui, sans-serif; background: #0f0f12; color: #eee; padding: 32px; } .row { display: flex; gap: 16px; flex-wrap: wrap; }</style>
+</head>
+<body>
+  <h1>injuri.ng profile cards</h1>
+  <p>Live cards that update when the page changes. No API key needed.</p>
+
+  <!-- Option 1: the script tag puts the card right where it is -->
+  <script src="https://injuri.ng/embed.js" data-user="sextinq" async></script>
+
+  <!-- Option 2: placeholders anywhere, plus the script once -->
+  <div class="row">
+    <div class="injuring-embed" data-user="september"></div>
+    <div class="injuring-embed" data-user="sextinq" data-theme="light"></div>
+  </div>
+</body>
+</html>
